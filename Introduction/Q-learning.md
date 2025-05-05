@@ -18,4 +18,4 @@ Instead, DP, TD and greedy occupies the most.
 An intersting thing about this algorthim used in maze: 
 The program only observes the current position of the agent and they must take action to know if it was in the trap or has wall collision. This step is processed by trial and error which seems to be brute-force search misleading me a lot.\
 Briefly, the whole process can be concluded as getting rewards from environment and make decision by the received reward or penalty and maintained Q-table. The following chart could clearly illustrate this:
-![](https://github.com/I0-OVI/Maze-Navigation/blob/main/Static/Image/Interaction_Q.drawio.png?raw=true)
+![Alt text](https://github.com/I0-OVI/Maze-Navigation/raw/main/Static/Image/Interaction_Q.drawio.png)
