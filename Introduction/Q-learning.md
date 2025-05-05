@@ -9,7 +9,7 @@ Here is the state transition equation of Q-values:
  $$
 
 
-In the equation, the explanation of varible is as follows:\
+In the equation, the explanation of varible is as follows:
 >$Q(s,a)$: Q-value of taking action *a* in state *s* \
 >a: rate of learning (bewteen 0(learn nothing) and 1(fully learn)) \
 >$\gamma$: discount factor (0(only care about current reward)~1(prioritize long-term reward)) \
