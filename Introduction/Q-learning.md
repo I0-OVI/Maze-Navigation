@@ -5,7 +5,7 @@ Its main process involves maintance of Q-table which contains many Q-values gain
 Here is the state transition equation of Q-values:\
 
 <div align="center">
-$$ Q(s,a)=Q(s,a)+\gamma \sum_{s'} P(s'| s,a) V(s') $$
+ Q(s,a)=Q(s,a)+\gamma \sum_{s'} P(s'| s,a) V(s') 
 </div>
 
 In the equation, the explanation of varible is as follows:\
