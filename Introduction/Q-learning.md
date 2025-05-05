@@ -3,9 +3,10 @@
 Q-learning is a model-free reinforcement learning algorithm where the **agent** learns to make decisions by interacting with the **environment**.
 Its main process involves maintance of Q-table which contains many Q-values gained from an evaluation function of the agent's motion and find the best strategy of the problem.\
 Here is the state transition equation of Q-values:\
-\[
-Q(s,a)=Q(s,a)+\gamma \sum_{s'} P(s'| s,a) V(s')
-\]
+
+<div align="center">
+$$ Q(s,a)=Q(s,a)+\gamma \sum_{s'} P(s'| s,a) V(s') $$
+</div>
 
 In the equation, the explanation of varible is as follows:\
 $Q(s,a)$: Q-value of taking action *a* in state *s* \
