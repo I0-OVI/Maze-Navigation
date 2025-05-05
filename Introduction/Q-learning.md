@@ -25,5 +25,5 @@ Briefly, the whole process can be concluded as getting rewards from environment 
 <div align="center">
   <img src="https://github.com/I0-OVI/Maze-Navigation/raw/main/Static/Image/Interaction_Q.drawio.png" alt="Q-Learning Diagram" width="500">
 </div>
-Return to the [Readme](/README.md)
+Return to the [Readme](/README.md) \
 Go to the next page: [Program and Improvement](/Program/Program.md)
