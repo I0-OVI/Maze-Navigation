@@ -16,4 +16,6 @@ There is a thing needed to mention: the basic principle of Q-learning is not bru
 Instead, DP, TD and greedy occupies the most. 
 ### In maze
 An intersting thing about this algorthim used in maze: 
-the program only oberves the current position of the agent and they must take action to know if it was in the trap or has wall collision, this step seems to be brute-force search
+The program only observes the current position of the agent and they must take action to know if it was in the trap or has wall collision. This step is processed by trial and error which seems to be brute-force search misleading me a lot.\
+Briefly, the whole process can be concluded as getting rewards from environment and make decision by the received reward or penalty and maintained Q-table. The following chart could clearly illustrate this:
+![](?raw=true)
