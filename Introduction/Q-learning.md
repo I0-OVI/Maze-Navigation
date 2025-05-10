@@ -27,4 +27,4 @@ Briefly, the whole process can be concluded as getting rewards from environment 
 </div>
 
 Return to the [Readme](/README.md) \
-Go to the next page: [Program and Improvement](/Program_and_Imporvement/Program.md)
+Go to the next page: [Program and Improvement](/Program_and_Improvement/Program.md)
