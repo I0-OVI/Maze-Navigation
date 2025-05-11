@@ -13,3 +13,5 @@ Therefore, I thought I should have a new program to solve the maze.
 #### Introduction of PER
 PER stands for **Prioritized Experience Replay**. 
 The principle of it is to take TD errors as a prioritized standard to automatically adjust the frequency of usage of sampling in order to accelerating the convergence of Q-values.
+It aims to reduce low-value actions: collision to the wall. As the result, the valued actions will not be ignored and the efficiency can be improved.
+Taking an analogy, the addition of PER is like the dijkstra having the priority queue optimization
