@@ -21,3 +21,4 @@ Here are the brief steps of PER：
 3. calculate the **TD errors** and upadate the Q-value
 4. use the bias correction due to the structure change by implementing the prioritized sampling
 
+#### Implement of PER
