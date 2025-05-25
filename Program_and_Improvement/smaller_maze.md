@@ -96,4 +96,4 @@ def get_reward(state, next_state, done, maze):
 ```
 
 These are the brief introduction of the PER modification. I realized that Q-learning should be more powerful than I thought because navigating the maze can be quickly solved by 
-A* algorithm. In [the next page](/Improved_alogrithm/PER+Q-learning), I will add a task to the agent: once the agent completes the task, It is allowed to go to the destination.
+A* algorithm. In [the next page](/Improved_algorithm/PER+Q-learning), I will add a task to the agent: once the agent completes the task, It is allowed to go to the destination.
