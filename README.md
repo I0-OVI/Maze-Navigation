@@ -8,3 +8,4 @@ The source code from wzq is the only .zip file in the program folder.
 2. [Program and Improvement](/Program_and_Improvement/smaller_maze.md)
 3. [Improved algorithm for larger maze](/Improved_algorithm/PER+Q-learning.md)
 
+Click them and read the detailed information.
