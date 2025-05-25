@@ -1,7 +1,7 @@
 # Task maze
 
 As I have said the additional task would be implemented to the agent: the agent needs to first reach a specific block to get the 'key'. Once the agent gets 'key', it could go to the destination or the reach of target could be taken as unsuccessful access.
-(image)
+![image](/Static/Image/maze_1.png) \
 In the picture, the agent should first go to the yellow block and then navigate to the red block. \
 There are some changes taken place in the new program in maze.py which is responsible for the generation of the maze.
 
@@ -95,11 +95,17 @@ Is = (best_path is None) or len(current_path) - 1 < len(best_path) - 1 or (curre
 if Is and done:
 ```
 The statics graph can be a clearer visual demonstration:
-(image_2)
+![image](/Static/Image/Maze_analysis_2.png)
 The picture above shows the pre-modification state, the following graph was generated after modification.
-(image_3)
+![image](/Static/Image/Maze_analysis_3.png)
 
 
 The episode before 500 involves some negative rewards because I have set extreme heavy penalty for staying original place and moving in circle.
 The difference can be seen in the last episodes: the unmodified agent returns an increasing reward and huge number of steps. In contrast, the improved one has a decreasing trend in the end. Plus, the final penalty was reduced a lot. \
-However, I was not satisfied with this result due to the large number of steps. Therefore, the first thing came to my mind was to adjust the value in the reward function. I would say this function only contribute a little to the final result. Later, I suspected whether the program for agent had some issues. Deepseek thought I was right and gave me a new *agent.py*. Pointing out that the 
+However, I was not satisfied with this result due to the large number of steps. Therefore, the first thing came to my mind was to adjust the value in the reward function. I would say this function only contribute a little to the final result. Later, I suspected whether the program for agent had some issues. Deepseek thought I was right and gave me a new *agent.py*. Pointing out that the agent did not update the state even if it had got the key. As the result, the statics graph is pretty good and animation of path was reasonable.
+![image](/Static/Image/Maze_analysis.png)
+In the end of this repositories, I would like to share some unrelated things:
+I was so stupid that I did not use cursor to assistant me to complete the program. This was because I misunderstood the content for free user. I thought I could not use it anymore unless I pay for the charge, but actually it just a limitation for requests.
+
+**THANK FOR YOUR READING**
+Back to [README](/README.md)
