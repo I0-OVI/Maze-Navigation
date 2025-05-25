@@ -48,7 +48,7 @@ I add a function using BFS to check whether the pass is available in case of tha
 ### Debugging and Improvement 
 
 **BFS distance check** \
-An animated function was implement, every step of the agent could be observed. If the destination is rounded by the wall in the picture, the agent would be mislead by the reward function using the direct path calculation ($D=((x_1-x_2)^2+(y_1-y_2))^-2$) and have a meaningless circle motion.
+An animated function was implement, every step of the agent could be observed. If the destination is rounded by the wall in the picture, the agent would be mislead by the reward function using the direct path calculation ( $$ D=((x_1-x_2)^2+(y_1-y_2))^-2 $$ ) and have a meaningless circle motion.
 ```python
     def bfs_distance(self, start, end, include_key=False):
         """calculate the shortest distance considering the obstacle"""
@@ -107,5 +107,5 @@ However, I was not satisfied with this result due to the large number of steps. 
 In the end of this repositories, I would like to share some unrelated things:
 I was so stupid that I did not use cursor to assistant me to complete the program. This was because I misunderstood the content for free user. I thought I could not use it anymore unless I pay for the charge, but actually it just a limitation for requests.
 
-**THANK FOR YOUR READING**
+**THANK FOR YOUR READING**\
 Back to [README](/README.md)
