@@ -66,9 +66,8 @@ def train():
 
 Due to the charge of cursor, I used deepseek assisting me to complete the program. Therefore, I did not maintain the visualization function of original program because too much requirement may lead deepseek to return "server is busy" and refuse my requests(But in the later part, I think I would add this function to the new program to analyze problem occurred).
 
-Second part is the addition of [memory.py]() to implement the **SumTree** feature, which is the crucial part of PER algorithm. \
-
-Third part is the complete change in the [agent.py]() which reduced memory burden and simplified the whole program.
+Second part is the addition of [memory.py](/Programs/Q-learning+PER/memory.py) to implement the **SumTree** feature, which is the crucial part of PER algorithm.\
+Third part is the complete change in the [agent.py](/Programs/Q-learning+PER/agent.py) which reduced memory burden and simplified the whole program.
 Here is an example:
 '''
 self.q_table = np.zeros((maze_size_x, maze_size_y, action_size)) #new one
@@ -97,4 +96,5 @@ def get_reward(state, next_state, done, maze):
 ```
 
 These are the brief introduction of the PER modification. I realized that Q-learning should be more powerful than I thought because navigating the maze can be quickly solved by 
-A* algorithm. In the next page, I will add a task to the agent: once the agent completes the task, It is allowed to go to the destination.
+A* algorithm. In [the next page](/Improved_algorithm/PER+Q-learning.md), I will add a task to the agent: once the agent completes the task, It is allowed to go to the destination.\
+Return to the [Readme](/README.md) 
