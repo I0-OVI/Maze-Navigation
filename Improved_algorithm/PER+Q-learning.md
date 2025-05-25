@@ -106,7 +106,7 @@ The difference can be seen in the last episodes: the unmodified agent returns an
 However, I was not satisfied with this result due to the large number of steps. Therefore, the first thing came to my mind was to adjust the value in the reward function. I would say this function only contribute a little to the final result. Later, I suspected whether the program for agent had some issues. Deepseek thought I was right and gave me a new [*agent.py*](/Programs/Q-learning+PER+KeyBlock/agent.py). Pointing out that the agent did not update the state even if it had got the key. As the result, the statics graph is pretty good and animation of path was reasonable.
 ![image](/Static/Image/Maze_analysis.png)
 In the end of this repositories, I would like to share some unrelated things:
-I was so stupid that I did not use cursor to assistant me to complete the program. This was because I misunderstood the content for free user. I thought I could not use it anymore unless I pay for the charge, but actually it just a limitation for requests.
+I was so stupid that I did not use cursor to assistant me to complete the program. This was because I misunderstood the content for free user. I thought I could not use it anymore unless I pay for the charge, but actually it just a limitation for requests. Plus, the program was actually finished several weeks ago. So, I just share some important or interesting point about the programs. If there are some mistakes, just ignore it. orz
 
 **THANK FOR YOUR READING**\
 Back to [README](/README.md)
